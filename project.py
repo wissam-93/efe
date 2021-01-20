@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 """
+
+Anaconda Spyder IDE
+
 Created on Wed Jan 20 11:40:46 2021
 
 @author: wessam
-"""
 
 
-"""
+
+DATASET SOURCCE https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records#
 
 DATASET  Columns description
 
@@ -59,6 +62,7 @@ x = pd.DataFrame(df.describe()) # indataframe
 print(x.describe())
 
 #The describe() function computes a summary of statistics 
+#mean std  quartiles max min 
 #only numeric coulumns
 
 
